@@ -1,0 +1,29 @@
+--
+CS378: Quiz #9 (10 pts) <Thanh>
+--
+
+--------------------------------------------------------------------------
+ 1. What are the FIVE iterator categories?
+    (5 pts)
+--
+
+input
+output
+forward
+bidirectional
+random access
+
+--------------------------------------------------------------------------
+ 2. What is the WEAKEST iterator that the algorithm std::fill() needs?
+    (2 pts)
+--
+
+forward
+
+--------------------------------------------------------------------------
+ 3. What is the STRONGEST iterator that the container std::list provides?
+    std::list is a double-linked list.
+    (2 pts)
+--
+
+bidirectional

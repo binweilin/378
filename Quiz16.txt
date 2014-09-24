@@ -1,0 +1,32 @@
+--
+CS378: Quiz #16 (10 pts) <Vidhoon>
+--
+
+--------------------------------------------------------------------------
+ 1. Fill in the TWO blanks below:
+    [The Liskov Substitution Principle]
+    (3 pts)
+
+    Functions that use pointers or references to <BLANK> classes must be
+    able to use objects of <BLANK> classes without knowing it.
+--
+
+base
+derived
+
+--------------------------------------------------------------------------
+ 2. In the implementation of vector, what was the reason for adding an
+    allocator template argument?
+    (3 pts)
+--
+
+so that the user can specify their own allocator type
+
+--------------------------------------------------------------------------
+ 3. In the implementation of vector, what was the reason for adding an
+    allocator constructor argument?
+    (3 pts)
+--
+
+so that the user can create an allocator object with a constructor other
+than the default constructor

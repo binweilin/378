@@ -1,0 +1,37 @@
+--
+CS378: Quiz #18 (10 pts) <Sam>
+--
+
+--------------------------------------------------------------------------
+ 1. Assuming that push_back() and push_front() are defined for
+    std::vector<T> and std::deque<T>, what are the complexities for each?
+    (4 pts)
+--
+
+push_back()  on vector is amortized constant
+push_front() on vector is           linear
+
+push_back()  on deque  is amortized constant
+push_front() on deque  is amortized constant
+
+--------------------------------------------------------------------------
+ 2. What is the complexity of std::vector<T>::swap()?
+    Be precise. There are two cases.
+    (2 pts)
+--
+
+constant if the allocators are equivalent, linear if not
+
+--------------------------------------------------------------------------
+ 3. What std containers can back std::stack?
+    (1 pt)
+--
+
+vector, deque, list
+
+--------------------------------------------------------------------------
+ 4. What std containers can back std::queue?
+    (2 pts)
+--
+
+deque, list
